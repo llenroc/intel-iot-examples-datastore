@@ -13,7 +13,7 @@ Although this data storage application is initially developed to deploy on Micro
 
 ## How it works
 
-The Intel IoT Examples Datastore application provides a simple REST API that allows authorized callers to store either log data or incremental counter data.
+The Intel® IoT Examples Datastore application provides a simple REST API that allows authorized callers to store either log data or incremental counter data.
 
 It exposes two sets of routes, both using basic token authentication.
 
