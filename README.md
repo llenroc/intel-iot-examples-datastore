@@ -1,8 +1,8 @@
-# Intel® IoT Examples Datastore
+# Intel IoT Examples Datastore
 
 ## Introduction
 
-The Intel® IoT Example Datastore is intended to provide a simple data store for sample applications that are part of the Intel® IoT how-to code samples.
+The Intel IoT Example Datastore is intended to provide a simple data store for sample applications that are part of the Intel IoT how-to code samples.
 
 It is a Node.js* application written using [Express][]. It uses a [Redis][] data store.
 
@@ -13,13 +13,13 @@ Although this data storage application is initially developed to deploy on Micro
 
 ## How it works
 
-The Intel® IoT Examples Datastore application provides a simple REST API that allows authorized callers to store either log data or incremental counter data.
+The Intel IoT Examples Datastore application provides a simple REST API that allows authorized callers to store either log data or incremental counter data.
 
 It exposes two sets of routes, both using basic token authentication.
 
 To authorize, provide the AUTH_TOKEN you set in the `X-Auth-Token` HTTP header.
 
-Multiple clients can share the same Intel® IoT Examples Datastore by simply using a different route key for each application.
+Multiple clients can share the same Intel IoT Examples Datastore by simply using a different route key for each application.
 
 ### Counter
 
@@ -56,7 +56,7 @@ Primary configuration for the application takes the form of the following `ENV` 
 
 ## Deployment  - Microsoft* Azure*
 
-This guide covers setting up a deployment environment for the Intel® IoT Datastore on Microsoft* Azure*.
+This guide covers setting up a deployment environment for the Intel IoT Datastore on Microsoft* Azure*.
 
 For other platforms, refer to the platform documentation.
 
